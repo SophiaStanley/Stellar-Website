@@ -29,7 +29,7 @@
 
 <style>
     header {
-        background-color: #007bff;
+        background-color: #05299e;
         padding: 1rem;
         text-align: center;
     }
@@ -59,11 +59,11 @@
     }
     
     footer {
-        background-color: #343a40;
+        background-color: #05299e;
         color: white;
         text-align: center;
         padding: 1rem;
-        position: fixed;
+        position: flex;
         bottom: 0;
         width: 100%;
     }
