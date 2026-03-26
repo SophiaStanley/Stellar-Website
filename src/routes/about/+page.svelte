@@ -19,9 +19,10 @@
     <img src= "/ElodieTemp.png" alt = "Temporary">
     <h2>Elodie</h2>
     <ul>
-        <li>Positon: Main Vocals</li>
+        <li>Position: Main Vocals</li>
         <li>Age: 20</li>
         <li>Birthday: July 14th</li>
+        <li>Zodiac Sign: Cancer</li>
         <li>Height: 5'5</li>
         <li>Blood Type: A</li>
         <li>Colour: Pink</li>
@@ -32,9 +33,10 @@
     <img src= "/IrisTemp.png" alt = "Temporary">
     <h2>Iris</h2>
     <ul>
-        <li>Positon: Leader</li>
+        <li>Position: Leader</li>
         <li>Age: 27</li>
         <li>Birthday: October 4th</li>
+        <li>Zodiac Sign: Libra</li>
         <li>Height: 5'10</li>
         <li>Blood Type: O</li>
         <li>Colour: Yellow</li>
@@ -45,9 +47,10 @@
     <img src= "/EnidTemp.png" alt = "Temporary">
     <h2>Enid</h2>
     <ul>
-        <li>Positon: Main Dancer</li>
+        <li>Position: Main Dancer</li>
         <li>Age: 22</li>
         <li>Birthday: September 15th</li>
+        <li>Zodiac Sign: Virgo</li>
         <li>Height: 5'2</li>
         <li>Blood Type: O</li>
         <li>Colour: Blue</li>
@@ -58,9 +61,10 @@
     <img src= "/GwynTemp.png" alt = "Temporary">
     <h2>Gwyn</h2>
     <ul>
-        <li>Positon: All-Rounder</li>
+        <li>Position: All-Rounder</li>
         <li>Age: 22</li>
         <li>Birthday: August 16th</li>
+        <li>Zodiac Sign: Leo</li>
         <li>Height: 5'5</li>
         <li>Blood Type: B</li>
         <li>Colour: Green</li>
@@ -71,9 +75,10 @@
     <img src= "/AceTemp.png" alt = "Temporary">
     <h2>Ace</h2>
     <ul>
-        <li>Positon: Visual</li>
+        <li>Position: Visual</li>
         <li>Age: 25</li>
         <li>Birthday: June 6th</li>
+        <li>Zodiac Sign: Gemini</li>
         <li>Height: 5'10</li>
         <li>Blood Type: AB</li>
         <li>Colour: Red</li>
@@ -131,6 +136,6 @@
 
     .profile {
         display: none;
-        margin: 2px 16px;
+        margin: 2px 2px;
     }
 </style>

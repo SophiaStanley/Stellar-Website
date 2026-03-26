@@ -2,6 +2,11 @@
    Global Styles with CSS Variables
    ============================== */
 
+     @font-face {
+        font-family: 'Bauhaus 93';
+        src: url('/fonts/BAUHS93.ttf') format('ttf');
+    }
+
    :root {
     /* Color Variables */
     --primary-color: #007bff;
@@ -46,6 +51,7 @@ body {
    ============================== */
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+    font-family: 'Bauhaus 93';
     margin-bottom: var(--spacing-small);
 }
 

@@ -1,6 +1,5 @@
 <script>
     // Import components
-    
 </script>
 
 
