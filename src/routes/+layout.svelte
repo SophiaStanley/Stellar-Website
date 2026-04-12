@@ -5,11 +5,11 @@
 
 <!-- Header -->
 <header>
-	<img src ="\StellarStageLogo.png" alt ="Stellar Stage Logo" width = 15% height = 15%>
+	<a href="/"><img src ="\StellarStageLogo.png" alt ="Stellar Stage Logo" width = 15% height = 15%></a>
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+            <li><a href="/members">Members</a></li>
             <li><a href="/game">Game</a></li>
         </ul>
     </nav>

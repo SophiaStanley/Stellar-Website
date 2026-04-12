@@ -2,16 +2,19 @@
    Global Styles with CSS Variables
    ============================== */
 
-     @font-face {
-        font-family: 'Bauhaus 93';
-        src: url('/fonts/BAUHS93.ttf') format('ttf');
-    }
+/* currently the custom font works on Edge and Google Chrome, but not on FireFox.*/
+   @font-face {
+    font-family: 'Poller One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/PollerOne-Regular.ttf') format('ttf');
+ }
 
    :root {
     /* Color Variables */
     --primary-color: #007bff;
     --background-color: #F1E9DA;
-    --text-color: #333;
+    --text-color: #000000;
     --link-hover-color: #0056b3;
 
     /* Font Variables */
@@ -51,7 +54,7 @@ body {
    ============================== */
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    font-family: 'Bauhaus 93';
+    font-family: Poller One;
     margin-bottom: var(--spacing-small);
 }
 
