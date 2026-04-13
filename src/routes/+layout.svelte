@@ -5,7 +5,7 @@
 
 <!-- Header -->
 <header>
-	<a href="/"><img src ="\StellarStageLogo.png" alt ="Stellar Stage Logo" width = 15% height = 15%></a>
+	<a href="/"><img src ="\StellarConnectionLogo.png" alt ="Stellar Connection Logo" width = 15% height = 15%></a>
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
@@ -28,7 +28,7 @@
 
 <style>
     header {
-        background-color: #05299e;
+        background-color: #4ab7ff;
         padding: 1rem;
         text-align: center;
     }
@@ -58,7 +58,7 @@
     }
     
     footer {
-        background-color: #05299e;
+        background-color: #4ab7ff;
         color: white;
         text-align: center;
         padding: 1rem;

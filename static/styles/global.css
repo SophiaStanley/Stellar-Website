@@ -11,10 +11,10 @@
 
    :root {
     /* Color Variables */
-    --primary-color: #007bff;
-    --background-color: #F1E9DA;
+    --primary-color: #179cf5;
+    --background-image: url("Background.png");
     --text-color: #000000;
-    --link-hover-color: #0056b3;
+    --link-hover-color: #0362c0;
 
     /* Font Variables */
     --font-family: 'Arial', sans-serif;
@@ -43,7 +43,7 @@
 body {
     font-family: var(--font-family);
     font-size: var(--font-size-base);
-    background-color: var(--background-color);
+    background-image: var(--background-image);
     color: var(--text-color);
     line-height: var(--line-height-base);
 }
@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-family: Poller One;
     margin-bottom: var(--spacing-small);
+    color: var(--primary-color);
 }
 
 /* ==============================

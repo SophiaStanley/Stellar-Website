@@ -25,7 +25,7 @@
 </div>
 
 <div id="elodie" class = "profile">
-    <img src= "/ElodieTemp.png" alt = "Temporary">
+    <img src= "/ElodieWeb.png" alt = "Temporary">
     <h2>Elodie</h2>
     <ul>
         <li>Position: Main Vocals</li>
@@ -40,7 +40,7 @@
 </div>
 
 <div id="iris" class = "profile">
-    <img src= "/IrisTemp.png" alt = "Temporary">
+    <img src= "/IrisWeb.png" alt = "Temporary">
     <h2>Iris</h2>
     <ul>
         <li>Position: Leader</li>
@@ -55,7 +55,7 @@
 </div>
 
 <div id = "enid" class="profile">
-    <img src= "/EnidTemp.png" alt = "Temporary">
+    <img src= "/EnidWeb.png" alt = "Temporary">
     <h2>Enid</h2>
     <ul>
         <li>Position: Main Dancer</li>
@@ -85,7 +85,7 @@
 </div>
 
 <div id = "ace" class="profile">
-    <img src= "/AceTemp.png" alt = "Temporary">
+    <img src= "/AceWeb.png" alt = "Temporary">
     <h2>Ace</h2>
     <ul>
         <li>Position: Visual</li>
@@ -107,11 +107,12 @@
         cursor: pointer;
         padding: 14px 16px;
         font-size: 17px;
-        background-color: #e6d7ba;
+        color: white;
+        background-color: #56a2f9;
     }
 
     button:hover {
-        background-color: #c7b593;
+        background-color: #006be6;
     }
     img {
         height: 30%;
@@ -123,29 +124,29 @@
         list-style-type: none;
     }
     #elodie {
-        background-color: magenta;
+        background-color: #d10073;
         display: block;
         overflow: auto;
     }
 
     #iris{
-        background-color: yellow;
+        background-color: #f6d75f;
         overflow: auto;
     }
 
 
     #enid {
-        background-color: cyan;
+        background-color: #0080b9;
         overflow: auto;
     }
 
     #gwyn {
-        background-color: green;
+        background-color: #009640;
         overflow: auto;
     }
 
     #ace {
-        background-color: red;
+        background-color: #ce0923;
         overflow: auto;
     }
 
@@ -157,6 +158,7 @@
 
     h2 {
         padding-top: 10%;
+        color: #000000;
     }
 
     
