@@ -2,12 +2,11 @@
    Global Styles with CSS Variables
    ============================== */
 
-/* currently the custom font works on Edge and Google Chrome, but not on FireFox.*/
    @font-face {
     font-family: 'Poller One';
+    src: url('/fonts/PollerOne-Regular.ttf');
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/PollerOne-Regular.ttf') format('ttf');
  }
 
    :root {
