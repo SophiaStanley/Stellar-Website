@@ -1,15 +1,21 @@
 <h1>The official website of the hit pop group!</h1>
-<img src = "/TitleTemp.png" alt = "Stellar Connection group shot">
-
-<h1>About the Group</h1>
-<p>Stellar*Connection is a new pop group comprising of 5 members from various parts of the entertainment industry. With their talents, combined, Stellar*Connection aims to provide fresh new music to their fans!</p>
-<h2><a href="/game">Stellar*Stage!</a></h2>
+<img src = "/TitleTemp.png" alt = "Stellar Connection group shot"> <br>
+<br>
+<h1>5 stars, with their powers combined!</h1>
+<div>
+<p>Stellar*Connection is a new pop group utilising their talents from across the entertainment industry to take the music world by storm. Consisting of Iris (Pop Singer and Model), Gwyn (Former Snow Boys member), Ace (An actor on 'Satellite Street'), Enid (A member of the dance troupe BURN IT BACK), and Elodie (The breakout star of Talent Academy Season 1), their unique perspectives provide "a fresh new take on pop music", as described by Marin Magazine.</p>
+</div>
 
 <style>
   img {
     height: 50%;
     width: 50%;
     animation: 2s ease-out 0s 1 fadeIn;
+  }
+  div {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 10vh;
   }
     h1 {
         animation: 2s ease-out 0s 1 fadeIn;

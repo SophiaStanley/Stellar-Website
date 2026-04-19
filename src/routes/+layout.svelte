@@ -22,7 +22,7 @@
 
 <!-- Footer -->
 <footer>
-    <p>&copy; 2025 My Svelte App. All rights reserved.</p>
+    <p>&copy; 2026 My Svelte App. All rights reserved.</p>
 </footer>
 
 
@@ -49,7 +49,10 @@
     nav ul li a {
         text-decoration: none;
         color: white;
-        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+        color: rgb(194, 191, 191);
     }
     
     main {

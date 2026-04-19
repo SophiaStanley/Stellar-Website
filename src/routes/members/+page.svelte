@@ -1,15 +1,21 @@
 <script>
 // @ts-nocheck
 
-    function changeProfile (memberName) {
+    function changeProfile (memberName, buttonName) {
         document.getElementById("elodie").style.display = "none";
         document.getElementById("iris").style.display = "none";
         document.getElementById("enid").style.display = "none";
         document.getElementById("gwyn").style.display = "none";
         document.getElementById("ace").style.display = "none";
 
-        document.getElementById(memberName).style.display = "block";
+        document.getElementById("elodietab").style.backgroundColor = "#56a2f9";
+        document.getElementById("iristab").style.backgroundColor = "#56a2f9";
+        document.getElementById("enidtab").style.backgroundColor = "#56a2f9";
+        document.getElementById("gwyntab").style.backgroundColor = "#56a2f9";
+        document.getElementById("acetab").style.backgroundColor = "#56a2f9";
 
+        document.getElementById(memberName).style.display = "block";
+        document.getElementById(buttonName).style.backgroundColor = "#006be6";
 
     }
 </script>
@@ -17,15 +23,15 @@
 <h1>Meet the Members of Stellar*Connection!</h1>
 
 <div class = "buttons">
-    <button class = "tabs" onclick = {() => changeProfile('elodie')}>Elodie</button>
-    <button class = "tabs" onclick = {() => changeProfile('iris')}>Iris</button>
-    <button class = "tabs" onclick = {() => changeProfile('enid')}>Enid</button>
-    <button class = "tabs" onclick = {() => changeProfile('gwyn')}>Gwyn</button>
-    <button class = "tabs" onclick = {() => changeProfile('ace')}>Ace</button>
+    <button id = "elodietab" onclick = {() => changeProfile('elodie', 'elodietab')}>Elodie</button>
+    <button id = "iristab" onclick = {() => changeProfile('iris', 'iristab')}>Iris</button>
+    <button id = "enidtab" onclick = {() => changeProfile('enid', 'enidtab')}>Enid</button>
+    <button id = "gwyntab" onclick = {() => changeProfile('gwyn', 'gwyntab')}>Gwyn</button>
+    <button id = "acetab" onclick = {() => changeProfile('ace', 'acetab')}>Ace</button>
 </div>
 
 <div id="elodie" class = "profile">
-    <img src= "/ElodieWeb.png" alt = "Temporary">
+    <img src= "/ElodieWeb.png" alt = "A professional photograph of Elodie, crouching down, one arm on her knees and the other up to her chin.">
     <h2>Elodie</h2>
     <ul>
         <li>Position: Main Vocals</li>
@@ -40,7 +46,7 @@
 </div>
 
 <div id="iris" class = "profile">
-    <img src= "/IrisWeb.png" alt = "Temporary">
+    <img src= "/IrisWeb.png" alt = "Iris, in a black dress with yellow accents, has both of her arms raised over her head, giving a serious expression.">
     <h2>Iris</h2>
     <ul>
         <li>Position: Leader</li>
@@ -55,7 +61,7 @@
 </div>
 
 <div id = "enid" class="profile">
-    <img src= "/EnidWeb.png" alt = "Temporary">
+    <img src= "/EnidWeb.png" alt = "Enid is turned to the side, looking back at the camera, her eyes facing elsewhere.">
     <h2>Enid</h2>
     <ul>
         <li>Position: Main Dancer</li>
@@ -70,7 +76,7 @@
 </div>
 
 <div id ="gwyn" class="profile">
-    <img src= "/GwynTemp.png" alt = "Temporary">
+    <img src= "/GwynWeb.png" alt = "Gwyn sitting down, one arm resting on his knee and the other on the ground.">
     <h2>Gwyn</h2>
     <ul>
         <li>Position: All-Rounder</li>
@@ -85,7 +91,7 @@
 </div>
 
 <div id = "ace" class="profile">
-    <img src= "/AceWeb.png" alt = "Temporary">
+    <img src= "/AceWeb.png" alt = "Ace balancing on his right leg and left arm, his left leg kneeling on the ground and his right arm resting on his right knee.">
     <h2>Ace</h2>
     <ul>
         <li>Position: Visual</li>
@@ -111,7 +117,7 @@
         background-color: #56a2f9;
     }
 
-    button:hover {
+    #elodietab {
         background-color: #006be6;
     }
     img {
