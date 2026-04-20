@@ -5,7 +5,7 @@
 
 <!-- Header -->
 <header>
-	<a href="/"><img src ="\StellarConnectionLogo.png" alt ="Stellar Connection Logo" width = 15% height = 15%></a>
+	<a href="/"><img src ="\StellarConnectionLogo.png" alt ="Stellar Connection Logo" width = 20% height = 20%></a>
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
