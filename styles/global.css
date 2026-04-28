@@ -1,0 +1,92 @@
+/* ==============================
+   Global Styles with CSS Variables
+   ============================== */
+
+   @font-face {
+    font-family: 'Poller One';
+    src: url('/fonts/PollerOne-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+ }
+
+   :root {
+    /* Color Variables */
+    --primary-color: #179cf5;
+    --background-image: url("Background.png");
+    --text-color: #000000;
+    --link-hover-color: #0362c0;
+
+    /* Font Variables */
+    --font-family: 'Arial', sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.6;
+
+    /* Spacing Variables */
+    --spacing-small: 10px;
+    --spacing-medium: 20px;
+    --spacing-large: 40px;
+    --max-width: 1200px;
+}
+
+/* ==============================
+   Global Reset - Ensures consistency across browsers
+   ============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==============================
+   Base Styles
+   ============================== */
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    background-image: var(--background-image);
+    background-size: contain;
+    color: var(--text-color);
+    line-height: var(--line-height-base);
+}
+
+/* ==============================
+   Headings
+   ============================== */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: Poller One;
+    margin-bottom: var(--spacing-small);
+    color: var(--primary-color);
+}
+
+/* ==============================
+   Paragraphs
+   ============================== */
+p {
+    margin-bottom: var(--spacing-small);
+}
+
+/* ==============================
+   Links
+   ============================== */
+a {
+    color: var(--primary-color);
+    font-family: Poller One;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--link-hover-color);
+}
+
+
+/* ==============================
+   Container - Layout Wrapping
+   ============================== */
+.container {
+    width: 90%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--spacing-medium);
+}
